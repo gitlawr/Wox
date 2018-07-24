@@ -3,5 +3,7 @@ stages:
   steps:
   - runScriptConfig:
       image: busybox
-      shellScript: echo hooo
+      shellScript: |-
+        echo hooo
+        echo oooh
 timeout: 60
